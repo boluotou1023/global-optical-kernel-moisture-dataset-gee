@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the software and the associated dataset paper."
+title: "Global Optical Moisture Dataset: Google Earth Engine Processing Code"
+type: software
+authors:
+  - family-names: "[Your family name]"
+    given-names: "[Your given name]"
+    affiliation: "[Your institution]"
+    orcid: "[Your ORCID]"
+repository-code: "https://github.com/[your-account]/[your-repository]"
+url: "https://github.com/[your-account]/[your-repository]"
+abstract: >
+  This repository contains the Google Earth Engine (GEE) JavaScript scripts
+  used to generate the monthly global optical moisture dataset, including
+  the humidity indices kNDMI_005_fixed, kNDMI_020_max, and kSVMI, together
+  with ancillary snow and quality-control layers.
+keywords:
+  - Google Earth Engine
+  - optical moisture
+  - soil moisture
+  - remote sensing
+  - dataset
+  - kNDMI
+  - kSVMI
+license: MIT
+version: 1.0.0
+date-released: 2026-03-23
+preferred-citation:
+  type: article
+  title: "[Full paper title]"
+  authors:
+    - family-names: "[Your family name]"
+      given-names: "[Your given name]"
+    - family-names: "[Coauthor family name]"
+      given-names: "[Coauthor given name]"
+  journal: "[Journal name]"
+  year: 2026
+  doi: "[Paper DOI]"
