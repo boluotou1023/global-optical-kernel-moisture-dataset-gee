@@ -10,7 +10,7 @@ The dataset production workflow consists of six main stages:
 
 1. Source data preparation
 2. Quality screening and snow masking
-3. Optical humidity index calculation
+3. Optical mositure index calculation
 4. Monthly compositing and ancillary layer generation
 5. Quality-control layer generation
 6. Validation and evaluation
@@ -23,8 +23,7 @@ The primary optical input data are derived from MODIS products, mainly:
 
 - **MOD09A1**: surface reflectance
 - **MOD10A1**: snow cover information
-- **MOD13Q1**: NDVI for SVI-related analyses
-
+- **MOD13Q1**: NDVI
 Additional datasets are used for validation and analysis, including:
 
 - **ESA CCI SM**
@@ -49,9 +48,9 @@ Pixels identified as snow-affected within a month are excluded from the monthly 
 
 ---
 
-## 3. Optical humidity index calculation
+## 3. Optical moisture index calculation
 
-After screening, the optical humidity indices are calculated from the valid MOD09A1 reflectance bands.
+After screening, the optical moisture indices are calculated from the valid MOD09A1 reflectance bands.
 
 The main dataset products include:
 
@@ -108,8 +107,7 @@ The generated dataset is evaluated using multiple validation strategies:
 - comparison with SMAPEx-5 data
 
 ### 6.4 Drought-response evaluation
-- analysis under different aridity backgrounds
-- comparison between humidity indices and SVI in relation to drought-related variability
+- comparison between humidity indices and NDVI in relation to drought-related variability
 
 ---
 
