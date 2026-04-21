@@ -1,38 +1,27 @@
-cff-version: 1.2.0
-message: "If you use this repository, please cite the software and the associated dataset paper."
-title: "Global Optical Moisture Dataset: Google Earth Engine Processing Code"
+cff-version: 1.0.0
+message: "If you use this repository, please cite the software release archived on Zenodo."
+title: "Global remotely sensed land surface moisture index kNDMI and kSVMI Dataset: Google Earth Engine Processing Code"
 type: software
 authors:
-  - family-names: "[Your family name]"
-    given-names: "[Your given name]"
-    affiliation: "[Your institution]"
-    orcid: "[Your ORCID]"
-repository-code: "https://github.com/[your-account]/[your-repository]"
-url: "https://github.com/[your-account]/[your-repository]"
+  - family-names: "Wang"
+    given-names: "Yuxin"
+    affiliation: "College of Geoscience and Surveying Engineering, China University of Mining and Technology-Beijing"
+repository-code: "https://github.com/boluotou1023/global-optical-kernel-moisture-dataset-gee"
+url: "https://github.com/boluotou1023/global-optical-kernel-moisture-dataset-gee"
 abstract: >
-  This repository contains the Google Earth Engine (GEE) JavaScript scripts
-  used to generate the monthly global optical moisture dataset, including
-  the humidity indices kNDMI_005_fixed, kNDMI_020_max, and kSVMI, together
-  with ancillary snow and quality-control layers.
+  This repository contains Google Earth Engine JavaScript code used to generate
+  the global monthly optical kernel moisture dataset for 2000–2024, including
+  the indices kNDMI_005_fixed, kNDMI_020_max, and kSVMI, together with the
+  ancillary snow_fraction layer and paired quality-control outputs.
 keywords:
   - Google Earth Engine
-  - optical moisture
-  - soil moisture
   - remote sensing
-  - dataset
+  - MODIS
+  - optical moisture
   - kNDMI
   - kSVMI
+  - GeoTIFF
+  - dataset
 license: MIT
 version: 1.0.0
-date-released: 2026-03-23
-preferred-citation:
-  type: article
-  title: "[Full paper title]"
-  authors:
-    - family-names: "[Your family name]"
-      given-names: "[Your given name]"
-    - family-names: "[Coauthor family name]"
-      given-names: "[Coauthor given name]"
-  journal: "[Journal name]"
-  year: 2026
-  doi: "[Paper DOI]"
+date-released: 2026-04-21
