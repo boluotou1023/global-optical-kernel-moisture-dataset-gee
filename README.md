@@ -1,8 +1,8 @@
-# Global remotely sensed land surface moisture index kNDMI and kSVMI Dataset: Google Earth Engine Processing Code
+# # Global Optical Kernel Moisture Dataset: Google Earth Engine Processing Code
 
 ## Overview
 
-This repository contains the Google Earth Engine (GEE) JavaScript code used to generate the monthly global remotely sensed land surface moisture index kNDMI and kSVMI Dataset: Google Earth Engine Processing Code dataset for 2000–2024.
+This repository contains the Google Earth Engine (GEE) JavaScript code used to generate the monthly global optical kernel moisture dataset for 2000–2024.
 
 The workflow produces three monthly optical moisture indices:
 
