@@ -1,4 +1,4 @@
-# Global Optical Kernel Moisture Dataset: Google Earth Engine Processing Code
+# Global remotely sensed land surface moisture index kNDMI and kSVMI Dataset: Google Earth Engine Processing Code
 
 ## Overview
 
