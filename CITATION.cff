@@ -15,7 +15,6 @@ abstract: >
   ancillary snow_fraction layer and paired quality-control outputs.
 keywords:
   - Google Earth Engine
-doi: 10.5281/zenodo.19687889
   - remote sensing
   - MODIS
   - optical moisture
@@ -26,3 +25,4 @@ doi: 10.5281/zenodo.19687889
 license: MIT
 version: 1.0.0
 date-released: 2026-04-21
+doi: 10.5281/zenodo.19687889
