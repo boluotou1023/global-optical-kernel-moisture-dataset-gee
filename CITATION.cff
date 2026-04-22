@@ -1,6 +1,6 @@
 cff-version: 1.0.0
 message: "If you use this repository, please cite the software release archived on Zenodo."
-title: "Global remotely sensed land surface moisture index kNDMI and kSVMI Dataset: Google Earth Engine Processing Code"
+title: "Global Optical Moisture Dataset: Google Earth Engine Processing Code"
 type: software
 authors:
   - family-names: "Wang"
